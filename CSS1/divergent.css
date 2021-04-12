@@ -1,0 +1,45 @@
+.link li{
+   margin:0;
+   padding: 0%;
+}
+header{
+    background-image: url(../bg/2.jpeg);
+    height: 100vh;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+}
+ul li a:hover{
+    color: black;
+}
+ul li.active a{
+    color:black;
+}
+h2{
+    float: left;
+    font-size: 50px;
+    color: aliceblue;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: white;
+}
+.title h1{
+    margin-top: 10%;    
+    font-size: 70px;
+}
